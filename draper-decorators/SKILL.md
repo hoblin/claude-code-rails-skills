@@ -1,7 +1,7 @@
 ---
 name: Draper Decorators
-description: This skill should be used when the user asks to "create a decorator", "write a decorator", "add presentation logic", "format model data for views", "use Draper", "test a decorator", "write decorator spec", or mentions separating presentation from business logic in Rails. Provides guidance on Draper gem best practices for Rails applications.
-version: 1.0.0
+description: This skill should be used when the user asks to "create a decorator", "write a decorator", "move logic into decorator", "clean logic out of the view", "isn't it decorator logic", "test a decorator", or mentions Draper, keeping views clean, or representation logic in decorators. Should also be used when editing *_decorator.rb files, working in app/decorators/ directory, questioning where formatting methods belong (models vs decorators vs views), or discussing methods like full_name, formatted_*, display_* that don't belong in models. Provides guidance on Draper gem best practices for Rails applications.
+version: 1.1.0
 ---
 
 # Draper Decorators for Rails
