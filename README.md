@@ -8,6 +8,21 @@ Skills are modular knowledge packages for [Claude Code](https://code.claude.com/
 
 ## Included Skills
 
+### ActiveRecord
+
+**Triggers:** Writing migrations, defining associations, adding validations, optimizing queries, N+1 prevention
+
+Comprehensive ActiveRecord reference covering:
+- CRUD operations, conventions, dirty tracking, type casting
+- Migrations, indexes, constraints, safe patterns
+- Validations (built-in, custom, contexts) with constraint decision framework
+- Callbacks, transaction callbacks, alternatives
+- All association types (belongs_to, has_many, :through, polymorphic)
+- Query interface, eager loading, scopes, batch processing
+
+**References:** `basics.md`, `migrations.md`, `validations.md`, `callbacks.md`, `associations.md`, `querying.md`
+**Examples:** Ready-to-use patterns for each topic area
+
 ### RSpec Testing
 
 **Triggers:** Writing `*_spec.rb` files, discussing tests, TDD workflow, fixing failing specs
@@ -74,6 +89,22 @@ You can also explicitly activate: `activate rspec` or `activate draper-decorator
 
 ```
 ~/.claude/skills/
+├── activerecord/
+│   ├── SKILL.md           # Quick reference, decision trees
+│   ├── references/        # Detailed patterns and API
+│   │   ├── basics.md
+│   │   ├── migrations.md
+│   │   ├── validations.md
+│   │   ├── callbacks.md
+│   │   ├── associations.md
+│   │   └── querying.md
+│   └── examples/          # Working code patterns
+│       ├── basics/
+│       ├── migrations/
+│       ├── validations/
+│       ├── callbacks/
+│       ├── associations/
+│       └── querying/
 ├── rspec/
 │   ├── SKILL.md           # Core reference (auto-loaded)
 │   ├── references/        # Deep-dive docs (loaded on demand)
