@@ -4,7 +4,7 @@ Auto-activating skills that transform Claude Code into a Rails-savvy pair progra
 
 ## What Are Skills?
 
-Skills are modular knowledge packages for [Claude Code](https://docs.anthropic.com/en/docs/claude-code). They auto-activate based on context - when you work on specs, the RSpec skill loads; when you write decorators, the Draper skill activates. No manual invocation needed.
+Skills are modular knowledge packages for [Claude Code](https://code.claude.com/docs/en/skills). They auto-activate based on context - when you work on specs, the RSpec skill loads; when you write decorators, the Draper skill activates. No manual invocation needed.
 
 ## Included Skills
 
