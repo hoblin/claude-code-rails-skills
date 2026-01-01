@@ -52,6 +52,21 @@ Complete guide to the Draper gem:
 **References:** `patterns.md`, `testing.md`, `anti-patterns.md`
 **Examples:** `application_decorator.rb`, `model_decorator.rb`, `decorator_spec.rb`
 
+### MCP Server (Ruby)
+
+**Triggers:** Creating MCP servers, building tools/prompts/resources, implementing Model Context Protocol in Rails
+
+Complete guide to the `mcp` gem (maintained by Anthropic and Shopify):
+- Design philosophy: context preservation, domain-aligned vocabulary, tool budget
+- Tools, prompts, and resources definition patterns
+- Server initialization and configuration
+- STDIO and Streamable HTTP transports
+- Rails controller integration
+- Security considerations (the "lethal trifecta")
+
+**References:** `tools.md`, `prompts.md`, `resources.md`, `server.md`, `transport.md`, `gotchas.md`
+**Examples:** `stdio_server.rb`, `http_server.rb`, `rails_integration.rb`, `file_manager_tool.rb`
+
 ## Installation
 
 ```bash
@@ -84,52 +99,6 @@ Skills activate automatically based on what you're doing:
 ```
 
 You can also explicitly activate: `activate rspec` or `activate draper-decorators`
-
-## Structure
-
-```
-~/.claude/skills/
-├── activerecord/
-│   ├── SKILL.md           # Quick reference, decision trees
-│   ├── references/        # Detailed patterns and API
-│   │   ├── basics.md
-│   │   ├── migrations.md
-│   │   ├── validations.md
-│   │   ├── callbacks.md
-│   │   ├── associations.md
-│   │   └── querying.md
-│   └── examples/          # Working code patterns
-│       ├── basics/
-│       ├── migrations/
-│       ├── validations/
-│       ├── callbacks/
-│       ├── associations/
-│       └── querying/
-├── rspec/
-│   ├── SKILL.md           # Core reference (auto-loaded)
-│   ├── references/        # Deep-dive docs (loaded on demand)
-│   │   ├── core.md
-│   │   ├── factory_bot.md
-│   │   ├── matchers.md
-│   │   ├── mocks.md
-│   │   └── rails.md
-│   └── examples/          # Ready-to-use patterns
-│       ├── core/
-│       ├── matchers/
-│       ├── mocks/
-│       ├── rails/
-│       └── factory_bot/
-└── draper-decorators/
-    ├── SKILL.md
-    ├── references/
-    │   ├── patterns.md
-    │   ├── testing.md
-    │   └── anti-patterns.md
-    └── examples/
-        ├── application_decorator.rb
-        ├── model_decorator.rb
-        └── decorator_spec.rb
-```
 
 ## Why Skills?
 
