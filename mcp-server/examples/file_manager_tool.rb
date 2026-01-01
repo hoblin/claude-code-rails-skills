@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
 # File Manager Tool with sandboxed operations
-# Demonstrates security patterns and annotations
+# Demonstrates: Security patterns, annotations, error responses, tool_name
+#
+# See: ../references/tools.md, ../references/gotchas.md
 
 require "mcp"
 require "fileutils"

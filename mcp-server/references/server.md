@@ -121,3 +121,20 @@ server.notify_tools_list_changed
 server.notify_prompts_list_changed
 server.notify_resources_list_changed
 ```
+
+---
+
+## See Also
+
+### Related References
+- **[Tools](tools.md)** - Tool definition DSL and response types
+- **[Prompts](prompts.md)** - Prompt definition and content types
+- **[Resources](resources.md)** - Resource and template definitions
+- **[Transport](transport.md)** - STDIO and HTTP transport configuration
+- **[Gotchas](gotchas.md)** - Configuration merging, notification quirks
+
+### Related Examples
+- **[`../examples/stdio_server.rb`](../examples/stdio_server.rb)** - Complete server with all components
+- **[`../examples/http_server.rb`](../examples/http_server.rb)** - HTTP server with Rack
+- **[`../examples/rails_integration.rb`](../examples/rails_integration.rb)** - Rails controller and routes
+- **[`../examples/dynamic_tools.rb`](../examples/dynamic_tools.rb)** - Runtime registration with notifications

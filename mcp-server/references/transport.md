@@ -87,3 +87,18 @@ MCP::Methods::MissingRequiredCapabilityError  # Capability not supported
 | 2025-03-26 | `instructions`, `annotations`, `title` (server) |
 | 2025-06-18 | `title`, `website_url` |
 | 2025-11-25 | `description` (latest stable) |
+
+---
+
+## See Also
+
+### Related References
+- **[Server](server.md)** - Server initialization and `server.transport` linking
+- **[Gotchas](gotchas.md)** - StreamableHTTP quirks, notification behavior, error handling
+
+### Related Examples
+- **[`../examples/stdio_server.rb`](../examples/stdio_server.rb)** - STDIO transport usage
+- **[`../examples/http_server.rb`](../examples/http_server.rb)** - Streamable HTTP with Rack
+- **[`../examples/rails_integration.rb`](../examples/rails_integration.rb)** - HTTP transport in Rails
+- **[`../examples/http_client.rb`](../examples/http_client.rb)** - Client connecting to HTTP server
+- **[`../examples/streaming_client.rb`](../examples/streaming_client.rb)** - SSE streaming client

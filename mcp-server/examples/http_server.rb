@@ -2,6 +2,10 @@
 # frozen_string_literal: true
 
 # HTTP MCP Server with Rack
+# Demonstrates: StreamableHTTP transport, configuration, logging, output_schema
+#
+# See: ../references/transport.md, ../references/server.md, ../references/tools.md
+#
 # Run: ruby http_server.rb
 # Server starts on http://localhost:9292
 

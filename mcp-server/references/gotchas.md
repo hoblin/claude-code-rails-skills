@@ -168,3 +168,16 @@ end
 ```ruby
 # IOError/EPIPE caught, session cleaned up, returns false
 ```
+
+---
+
+## See Also
+
+### Related References
+- **[Tools](tools.md)** - Schema definition and validation
+- **[Server](server.md)** - Configuration and notifications
+- **[Transport](transport.md)** - Transport-specific behaviors
+
+### Related Examples
+- **[`../examples/stdio_server.rb`](../examples/stdio_server.rb)** - Basic patterns avoiding common pitfalls
+- **[`../examples/http_server.rb`](../examples/http_server.rb)** - HTTP error handling

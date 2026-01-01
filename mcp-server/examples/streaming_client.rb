@@ -2,7 +2,9 @@
 # frozen_string_literal: true
 
 # SSE Streaming Client
-# Demonstrates connecting with Server-Sent Events for real-time notifications
+# Demonstrates: SSE connections, session management, real-time notifications
+#
+# See: ../references/transport.md, ../references/gotchas.md
 
 require "net/http"
 require "json"

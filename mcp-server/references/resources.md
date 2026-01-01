@@ -39,3 +39,15 @@ MCP::Resource::BlobContents.new(
   mime_type: "image/png"
 )
 ```
+
+---
+
+## See Also
+
+### Related References
+- **[Server](server.md)** - Resource registration and `resources_read_handler`
+- **[Transport](transport.md)** - Protocol methods (`resources/list`, `resources/read`, `resources/templates/list`)
+
+### Related Examples
+- **[`../examples/stdio_server.rb`](../examples/stdio_server.rb)** - Static resource with read handler
+- **[`../examples/file_manager_tool.rb`](../examples/file_manager_tool.rb)** - File-based resources with security

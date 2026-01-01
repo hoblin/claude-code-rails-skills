@@ -2,6 +2,10 @@
 # frozen_string_literal: true
 
 # Complete STDIO MCP Server
+# Demonstrates: Class-based tools, prompts, resources, dynamic tool definition
+#
+# See: ../references/tools.md, ../references/prompts.md, ../references/transport.md
+#
 # Run: ruby stdio_server.rb
 # Then type JSON-RPC requests:
 #   {"jsonrpc":"2.0","id":1,"method":"ping"}

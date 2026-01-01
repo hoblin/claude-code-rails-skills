@@ -85,3 +85,14 @@ MCP::Content::Image.new(
   annotations: { source: "camera" }
 )
 ```
+
+---
+
+## See Also
+
+### Related References
+- **[Server](server.md)** - Prompt registration and handler overrides
+- **[Transport](transport.md)** - Protocol methods (`prompts/list`, `prompts/get`)
+
+### Related Examples
+- **[`../examples/stdio_server.rb`](../examples/stdio_server.rb)** - Class-based prompt definition (`CodeReviewPrompt`)

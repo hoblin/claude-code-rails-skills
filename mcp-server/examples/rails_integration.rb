@@ -1,6 +1,10 @@
 # frozen_string_literal: true
 
 # Rails MCP Integration
+# Demonstrates: server_context with auth, configuration in initializer, permission checks
+#
+# See: ../references/server.md, ../references/transport.md, ../references/tools.md
+#
 # Add these files to your Rails application
 
 # config/routes.rb

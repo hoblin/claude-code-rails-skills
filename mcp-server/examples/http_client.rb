@@ -2,7 +2,9 @@
 # frozen_string_literal: true
 
 # HTTP Client Example
-# Demonstrates connecting to an MCP server over HTTP
+# Demonstrates: MCP::Client, HTTP transport, tool/prompt discovery and invocation
+#
+# See: ../references/transport.md
 
 require "mcp"
 

@@ -131,3 +131,16 @@ schema.validate_arguments({ x: 123 })  # Raises ValidationError
 - `$ref` is NOT allowed (raises ArgumentError)
 - Type defaults to "object" if not specified
 - Required fields auto-convert symbols to strings
+
+---
+
+## See Also
+
+### Related References
+- **[Server](server.md)** - Dynamic tool registration with `server.define_tool`
+- **[Gotchas](gotchas.md)** - Schema quirks, tool name derivation, validation flow
+
+### Related Examples
+- **[`../examples/stdio_server.rb`](../examples/stdio_server.rb)** - Class-based and dynamic tool definitions
+- **[`../examples/file_manager_tool.rb`](../examples/file_manager_tool.rb)** - Complex tool with security patterns
+- **[`../examples/dynamic_tools.rb`](../examples/dynamic_tools.rb)** - Runtime tool registration

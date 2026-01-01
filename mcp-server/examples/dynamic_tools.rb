@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
 # Dynamic Tool Registration
-# Demonstrates runtime tool creation and notification
+# Demonstrates: server.define_tool, notify_tools_list_changed, plugin pattern
+#
+# See: ../references/server.md, ../references/tools.md
 
 require "mcp"
 
